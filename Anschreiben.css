@@ -1,0 +1,41 @@
+body{
+margin: 10cm;
+margin-top: 2cm;
+}
+
+/*Anschrift-Ibrahim *****************************************/
+#Anschrift-Ibrahim{
+    margin-bottom: 1cm;
+}
+#Anschrift-Ibrahim p{
+    text-align: right;
+    margin: 0;
+}
+/*Anschrift-Firma *****************************************/
+#Anschrift-Firma{
+    margin-bottom: 1cm;
+}
+
+#Anschrift-Firma p{
+    text-align: left;
+    margin: 0;
+}
+
+
+/*Datum *****************************************/
+#Datum{
+    text-align: right;
+    margin-bottom: 1cm;
+}
+
+/*Betreff *****************************************/
+#Betreff{
+    margin-bottom: 1cm;
+}
+#Unterschrift{
+    margin: b;
+} 
+#Unterschrift img{
+    width: 7%;
+    height: auto;
+}

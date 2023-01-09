@@ -1,0 +1,28 @@
+span {position: absolute; left: 23cm;}
+span1 {position: relative;  left: 5.0cm;}
+
+body{
+    margin: 18cm;
+    margin-top: 1cm;
+    }
+    
+
+#Bewerbungsbild img{
+
+        float:right; 
+        margin-right:-182px;
+        width: 28%;
+    
+}
+
+p1{
+    background-color: aqua;
+}
+
+#Unterschrift img{
+    width: 7%;
+    height: auto;
+}
+
+
+

@@ -1,0 +1,234 @@
+* {box-sizing: border-box}
+
+html, body{margin: 0;padding: 0;height: 100%;text-align: center;}
+section {min-height: 100%;}
+a{text-decoration: none;}
+li{list-style-type: none;}
+h1, h2, h3, h5, a{font-family: 'Roboto', sans-serif;font-weight: 500;color: #494949;text-transform: uppercase;}
+h2{color: #5D7177;}
+h3{font-size: 40px;padding-top: 8%;margin-bottom: 5px; margin: 0;}
+h4, p{font-family: 'Roboto Slab', serif;color: #494949;}
+h5{text-align: left; font-size: 27px;}
+h5{text-align: left; font-size: 27px;}
+hr{width: 30px;height: 3px;background-color: #494949;border: 0;margin: 0 auto 40px auto;}
+#logo, li, img, .button {transition: all 300ms;}
+
+/*HEADER *****************************************/
+header {width: 100%;
+  height: 65px;
+  position: fixed;
+  top: 0;left: 0; 
+  background: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  z-index: 1;}
+#logo{
+width: 116px;
+float: left;
+margin: -35px 0 0 30px;
+margin-top: -25px;}
+
+#logo:hover{opacity: 0.5;}
+#logo img{width: 100%;}
+
+header nav {
+  float: right;
+  margin: 10px 50px 0 0}
+header nav ul li{
+  float: left;
+  margin-right: 25px;}
+header nav ul li a{font-size: 16px;}
+header nav ul li:hover{padding-top: 5px;}
+
+/*Startseite *****************************************/
+
+#Startseite {
+  background: url(Bilder/Hintergrund.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+#Startseite h1{
+  margin: 345px auto 0 auto;
+  font-size: 88px;
+}
+
+#Startseite h2{
+  margin: 0 auto 0 auto;
+  font-size: 30px;
+}
+
+#Startseite img {
+  width: 32px;
+  margin-top: 150px;
+  opacity: 0.5;
+}
+
+#Startseite img:hover{
+  opacity: 1;
+}
+
+
+/*Über *****************************************/
+
+#Über img{
+  width: 240px;
+}
+
+#Über h4{
+  font-size: 25px;
+}
+
+#Über p{
+  width: 700px;
+  margin: 0 auto 0 auto;
+}
+
+/*Kenntnisse *****************************************/
+
+#Kenntnisse{
+  background-color: #ddd;}
+
+.container{
+width: 11cm;
+background-color: #aaaaaa;
+margin: 0 auto 0 auto;}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;}
+
+.Word {width: 70%; height: 0.9cm; background-color: #77b0df;}
+.Excel {width: 50%; height: 0.9cm; background-color: #77b0df;}
+.PowerPoint {width: 50%; height: 0.9cm; background-color: #77b0df;}
+.HTML-CSS{width: 45%; height: 0.9cm; background-color: #77b0df;}
+.Python{width: 30%; height: 0.9cm; background-color: #77b0df;}
+
+.Kurdisch{width: 100%; height: 0.9cm; background-color: #77b0df;}
+.Arabisch{width: 70%; height: 0.9cm; background-color: #77b0df;}
+.Deutsch{width: 70%; height: 0.9cm; background-color: #77b0df;}
+.Englisch{width: 45%; height: 0.9cm; background-color: #77b0df;}
+
+#Progress p1{
+  width: 33.3%; 
+  text-align: left;}
+
+body h5{
+  margin-left: 1.5cm;
+}
+
+#Progress ul li{
+  width: 33.3%;
+  float: left;
+  margin-top: 0.1cm;}
+
+#Progress ul li1{
+  width: 50%;
+  float: left;
+  margin-top: 1.7cm;
+margin-bottom: 1.7cm;}
+
+#Progress ul li2{
+  width: 50%;
+  float: left;
+  margin-top: 1.0cm;
+margin-bottom: 1.3cm;}
+
+#Progress ul li3{
+  width: 50%;
+  float: left;
+  margin-top: 1.0cm;
+margin-bottom: 0.9cm;}
+
+
+
+/*Unterlagen *****************************************/
+
+#projects{
+  width: 950px;
+  margin: 0 auto 0 auto;
+}
+
+#projects ul{
+  padding: 0;
+}
+
+#projects ul li{  
+  width: 43.3%;
+  float: left;
+  margin-bottom: 24px;
+}
+
+#projects img{
+  width: 380px;
+  height: 220px;
+  margin: 0px auto 0 79px;
+}
+
+
+#projects img:hover{
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.4);
+}
+
+
+
+/*Kontakt *****************************************/
+
+#Kontakt {
+  background-color: #ddd;
+}
+
+form input, textarea{
+  font-family: 'Roboto Slab', serif;
+  font-size: 15px;
+  margin-bottom: 10px;
+  border-radius: 2px;
+  border: 2px solid;
+  border-color: #494949;
+  outline: none;
+}
+
+form input:first-child{
+  margin-top: 60px;
+}
+
+form input{
+  width: 552px;
+  height: 30px;
+}
+
+form textarea{
+  width: 550px;
+  height: 200px;
+  resize: none;
+}
+
+.input_text{
+  color: #494949;
+  padding-left: 10px 
+}
+
+
+::-webkit-input-placeholder {color: #999999;}
+::-moz-placeholder {color: #999999;}
+:-ms-input-placeholder {color: #999999;}
+:-moz-placeholder {color: #999999;}
+
+.button{
+  background-color: #f0f0f0;
+  color: #494949;
+  width: 566px;
+  height: 50px;
+}
+
+.button:hover{
+  background-color: #494949;
+  color: #f0f0f0;
+}
