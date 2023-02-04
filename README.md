@@ -1,2 +1,3 @@
 # BewerbungsHomepage
-Willkommen auf meiner BewerbungsHomepage
+Willkommen auf meiner BewerbungsHomepage.
+
