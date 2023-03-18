@@ -1,6 +1,10 @@
 body{
 margin: 10cm;
 margin-top: 2cm;
+
+font-family: 'Roboto', sans-serif;font-weight: 500;
+
+color: rgb(51, 51, 51);
 }
 
 /*Anschrift-Ibrahim *****************************************/
@@ -22,20 +26,12 @@ margin-top: 2cm;
 }
 
 
-/*Datum ********************************************/
-#Datum{
-    text-align: right;
-    margin-bottom: 1cm;
-}
-
 /*Betreff *****************************************/
 #Betreff{
     margin-bottom: 1cm;
 }
-#Unterschrift{
-    margin: b;
-} 
+
 #Unterschrift img{
-    width: 7%;
-    height: auto;
+    height: 1.3cm;
+    width: 2.1cm;
 }

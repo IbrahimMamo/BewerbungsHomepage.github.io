@@ -1,17 +1,17 @@
 * {box-sizing: border-box}
 
-html, body{margin: 0;padding: 0;height: 100%;text-align: center;}
-section {min-height: 100%;}
+html, body{margin: 0;padding: 0;height: 100%; text-align: center;}
+section {min-height: 102%;}
 a{text-decoration: none;}
 li{list-style-type: none;}
-h1, h2, h3, h5, a{font-family: 'Roboto', sans-serif;font-weight: 500;color: #494949;text-transform: uppercase;}
+h1, h2, h3, h5, a{font-family: 'Roboto', sans-serif;font-weight: 500;color: #494949;text-transform: uppercase; }
 h2{color: #5D7177;}
-h3{font-size: 40px;padding-top: 8%;margin-bottom: 5px; margin: 0;}
+h3{font-size: 40px;padding-top: 7%;margin-bottom: 5px; margin: 0;}
 h4, p{font-family: 'Roboto Slab', serif;color: #494949;}
 h5{text-align: left; font-size: 27px;}
 h5{text-align: left; font-size: 27px;}
-hr{width: 30px;height: 3px;background-color: #494949;border: 0;margin: 0 auto 40px auto;}
-#logo, li, img, .button {transition: all 300ms;}
+hr{width: 35px;height: 3px;background-color: #494949;border: 0;margin: 0 auto 65px auto;}
+#logo, li, img, .button {transition: all 300ms; -webkit-transition: all 300ms; -moz-transition: all 300ms; -o-transition: all 300ms}  
 
 /*HEADER *****************************************/
 header {width: 100%;
@@ -30,6 +30,7 @@ margin-top: -25px;}
 #logo:hover{opacity: 0.5;}
 #logo img{width: 100%;}
 
+/*NAVIGATION ******************************************/
 header nav {
   float: right;
   margin: 10px 50px 0 0}
@@ -37,12 +38,12 @@ header nav ul li{
   float: left;
   margin-right: 25px;}
 header nav ul li a{font-size: 16px;}
-header nav ul li:hover{padding-top: 5px;}
+
 
 /*Startseite *****************************************/
 
 #Startseite {
-  background: url(Bilder/Hintergrund.jpg);
+  background: url(Bilderr/Hintergrund.jpg);
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
@@ -73,15 +74,22 @@ header nav ul li:hover{padding-top: 5px;}
 /*Über *****************************************/
 
 #Über img{
-  width: 240px;
+  width: 220px;
+}
+#über img:hover{
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
 }
 
 #Über h4{
-  font-size: 25px;
+  font-size: 27px;
 }
 
 #Über p{
   width: 700px;
+  font-size: 17px;
   margin: 0 auto 0 auto;
 }
 
@@ -93,7 +101,11 @@ header nav ul li:hover{padding-top: 5px;}
 .container{
 width: 11cm;
 background-color: #aaaaaa;
-margin: 0 auto 0 auto;}
+margin: 0 auto 0 auto;   border-color: rgb(122, 119, 119);
+border-width: 0.1px;
+border-style: solid;
+}
+
 
 .skills {
   text-align: right;
@@ -101,16 +113,16 @@ margin: 0 auto 0 auto;}
   padding-bottom: 10px;
   color: white;}
 
-.Word {width: 70%; height: 0.9cm; background-color: #77b0df;}
-.Excel {width: 50%; height: 0.9cm; background-color: #77b0df;}
-.PowerPoint {width: 50%; height: 0.9cm; background-color: #77b0df;}
-.HTML-CSS{width: 45%; height: 0.9cm; background-color: #77b0df;}
-.Python{width: 30%; height: 0.9cm; background-color: #77b0df;}
+.Word {width: 70%; height: 0.9cm; background-color: #83bae7;}
+.Excel {width: 50%; height: 0.9cm; background-color: #83bae7;}
+.PowerPoint {width: 60%; height: 0.9cm; background-color: #83bae7;}
+.HTML-CSS{width: 55%; height: 0.9cm; background-color: #83bae7;}
+.Python{width: 25%; height: 0.9cm; background-color: #83bae7;}
 
-.Kurdisch{width: 100%; height: 0.9cm; background-color: #77b0df;}
-.Arabisch{width: 70%; height: 0.9cm; background-color: #77b0df;}
-.Deutsch{width: 70%; height: 0.9cm; background-color: #77b0df;}
-.Englisch{width: 45%; height: 0.9cm; background-color: #77b0df;}
+.Kurdisch{width: 100%; height: 0.9cm; background-color: #83bae7;}
+.Arabisch{width: 70%; height: 0.9cm; background-color: #83bae7;}
+.Deutsch{width: 85%; height: 0.9cm; background-color: #83bae7;}
+.Englisch{width: 50%; height: 0.9cm; background-color: #83bae7;}
 
 #Progress p1{
   width: 33.3%; 
@@ -150,22 +162,28 @@ margin-bottom: 0.9cm;}
 #projects{
   width: 950px;
   margin: 0 auto 0 auto;
+
 }
 
 #projects ul{
   padding: 0;
+
 }
 
 #projects ul li{  
   width: 43.3%;
   float: left;
   margin-bottom: 24px;
+
 }
 
 #projects img{
   width: 380px;
   height: 220px;
   margin: 0px auto 0 79px;
+  border-color: rgb(5, 5, 5);
+  border-width: 0.8px;
+  border-style: solid;
 }
 
 
@@ -174,7 +192,7 @@ margin-bottom: 0.9cm;}
   -webkit-transform: scale(1.1);
   -moz-transform: scale(1.1);
   -o-transform: scale(1.1);
-  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 8px 8px #83bae7;
 }
 
 
@@ -191,13 +209,10 @@ form input, textarea{
   margin-bottom: 10px;
   border-radius: 2px;
   border: 2px solid;
-  border-color: #494949;
+  border-color: #606268;
   outline: none;
 }
 
-form input:first-child{
-  margin-top: 60px;
-}
 
 form input{
   width: 552px;
@@ -210,26 +225,58 @@ form textarea{
   resize: none;
 }
 
-.input_text{
-  color: #494949;
-  padding-left: 10px 
+#ft-form {
+  display: flex;
+  flex-direction: column;
+}
+
+::-webkit-input-placeholder {color: #474747;}::-moz-placeholder {color: #474747;}:-ms-input-placeholder {color: #474747}:-o-placeholder {color: #474747}
+
+
+  /*Checkbox-Kontakt*****************************************/
+input[type="checkbox"]
+{
+  width: 25px;
+  height: 25px;
+  margin-right: 30px;
+
+}
+label1
+{ 
+  font-size: 15px;
+text-transform:none
+
+
 }
 
 
-::-webkit-input-placeholder {color: #999999;}
-::-moz-placeholder {color: #999999;}
-:-ms-input-placeholder {color: #999999;}
-:-moz-placeholder {color: #999999;}
+/*Submit-Kontakt*****************************************/
+  input[type="submit"] {
+    margin-top: 1em;
+    height: 3.0em;
+    color: #474747;
 
-.button{
-  background-color: #f0f0f0;
-  color: #494949;
-  width: 566px;
-  height: 50px;
+  }
+
+
+
+/*footer*****************************************/
+
+.site-footer {
+  display: flex;
+  background-color: #83bae7;;
+  }
+
+footer{
+position: relative;
+height: 80px;
+margin-top: -80px;
+text-align: left;
+
 }
 
-.button:hover{
-  background-color: #494949;
-  color: #f0f0f0;
+footer a
+{
+font-size: 13px;
+color: #474747 ;
 }
-

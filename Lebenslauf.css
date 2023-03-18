@@ -1,9 +1,11 @@
-span {position: absolute; left: 23cm;}
-span1 {position: relative;  left: 5.0cm;}
+span {position: absolute; left: 23cm;} 
+span1 {position: relative;  left: 5.0cm; margin: 0; padding: 0; line-height: 74%;}
 
 body{
     margin: 18cm;
     margin-top: 1cm;
+    color: rgb(51, 51, 51);
+    font-family: 'Roboto', sans-serif;font-weight: 500;
     }
     
 
@@ -15,13 +17,10 @@ body{
     
 }
 
-p1 {
-    background-color: aqua;
-}
 
 #Unterschrift img{
-    width: 7%;
-    height: auto;
+    height: 1.3cm;
+    width: 2.1cm;
 }
 
 
