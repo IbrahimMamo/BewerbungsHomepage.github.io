@@ -235,19 +235,27 @@ form textarea{
 
 
   /*Checkbox-Kontakt*****************************************/
-input[type="checkbox"]
+input[type="checkbox"], label1
 {
-  width: 25px;
+  width: 825px;
   height: 25px;
-  margin-right: 30px;
-
-}
-label1
-{ 
+  margin-left: 530px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
   font-size: 15px;
-text-transform:none
+text-transform: none;
+}
+label
+{ 
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  font-size: 15px;
+text-transform: none;
 
-
+ 
+ 
 }
 
 
